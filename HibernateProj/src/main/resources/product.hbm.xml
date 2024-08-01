@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hibernate.Product" table="ProductInfo">
+		<id name="productId" column="productId" /> <!-- primary key -->
+		<property name="prodName" column="productName" />
+		<property name="productPrice" column="productPrice" />
+	</class>
+</hibernate-mapping>
+
+<!-- A primary key is unique and not null and used to identify a row uniquely -->
